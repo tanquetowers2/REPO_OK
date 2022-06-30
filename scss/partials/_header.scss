@@ -1,0 +1,89 @@
+
+.logo-atrox {
+  display: block;
+}
+
+.menu-navergacion {
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+.redes {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+}
+.redes .redes-dos .redes-tres{
+      width: 60px;
+      height: 60px;
+      background-color: rgb(255, 34, 0);
+      text-align: center;
+      line-height: 50px;
+      font-size: 35px;
+      margin: 0 10px;
+      display: block;
+      border-radius: 50%;
+      position: relative;
+      overflow: hidden;
+      border: 3px solid #fff;
+      z-index: 1;
+    }
+    .redes .redes-dos .icon{
+      position: relative;
+      color: #262626;
+      transition: .5s;
+      z-index: 3;
+    }
+    .redes .redes-dos .redes-tres:hover .icon{
+      color: #fff;
+      transform: rotateY(360deg);
+    }
+    .redes .redes-dos .redes-tres:before {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #f00;
+      transition: .5s;
+      z-index: 2;
+    }
+
+
+
+ li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+.enlaces a {
+  text-decoration: none;
+  text-align: center;
+  color: rgb(255, 255, 255);
+
+}
+
+.header-info{
+    grid-column: 1/6;
+    background-color: rgb(255, 0, 0);
+
+}
+.titulo-info {
+  color: rgb(255, 255, 255);
+  padding: 80px 0;
+  text-align: center;
+  font-size: 2.9em;
+}
+
+
+
+
+
+   
